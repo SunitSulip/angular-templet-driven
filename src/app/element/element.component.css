@@ -1,0 +1,42 @@
+.star::after {
+    content: "*";
+    color: red;
+
+}
+.container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.card{
+    border-color: black;
+    box-shadow: 10px 5px gray;
+}
+input.ng-touched.ng-invalid{
+    border: 2px solid red;
+}
+input{
+    width: 95%;
+}
+.card-body{
+    
+    border-top: 2px solid black;
+}
+#submitButton{
+    text-align: center;
+}
+.alert{
+    width: 95%;
+}
+#submit{
+    margin-top: 2%; 
+    width: auto;
+}
+select{
+    width: 95%;
+}
+textarea{
+    width: 95%;
+}
+button.disabled{
+    background-color: gray;
+}
